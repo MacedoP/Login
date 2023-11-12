@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*
+    --cor1: #73130A;
+    --cor2: #A61F12;
+    --cor3: #D93A2B;
+    --cor4: #400404;
+    --cor5: #0D0D0D;
+
+    UMA PALETA ALTERNATIVA
+    --cor6: #0E0F14;
+    --cor7: #0C1314;
+    --cor8: #0F1D21;
+    --cor9: #000000;
+    CORES DA LETRAS
+    --cor10: #D0B691;
+    --cor11: #C9AB81;
+    --cor12: #272C2D;
+    --cor13: #655746;
+
+*/
+:root{
+    --cor1: #73130A;
+    --cor2: #A61F12;
+    --cor3: #D93A2B;
+    --cor4: #400404;
+    --cor5: #0D0D0D;
+
+}
+body{
+    background-color: #73130A;
+
+}
+header{
+    background-color: #0D0D0D;
+    padding: 30px;
+}
+header > h1{
+    color: white;
+    text-decoration: none;
+    background-color: #400404;
+    width: 200px;
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.596);
+    
+}
+header > h1:hover{
+    background-color: #400404;
+    text-decoration: none;
+    width: 200px;
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.957);
+    
+}
+h1 > a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    background-color: #0D0D0D;
+    padding: 30px;
+    text-align: right;
+  
+  
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+   
+    
+    
+}
+nav > a:hover{
+    background-color: #400404;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.715);
+    transition-duration: 1s;
+    border: 1px solid white;
+}
